@@ -255,4 +255,7 @@ footer {
   .background-image {
     margin: 60px auto;
   }
+  hr {
+    margin: 70px auto;
+  }
 }
