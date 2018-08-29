@@ -230,3 +230,29 @@ footer {
     margin: 0;
   }
 }
+
+/* index.html media queries */
+@media (max-width: 768px) {
+  .main-header,
+  .main-content,
+  .background-image,
+  .services,
+  footer {
+    width: 90%;
+    flex-direction: column;
+  }
+  .main-header img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .main-content-about-right,
+  .main-content-about-left {
+    margin-bottom: 20px;
+  }
+  .main-content-about-left {
+    margin-top: 40px;
+  }
+  .background-image {
+    margin: 60px auto;
+  }
+}
