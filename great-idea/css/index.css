@@ -9,6 +9,7 @@
 }
 .main-nav-content a {
   font-size: 1.2rem;
+  padding: 10px;
 }
 .main-nav-content a {
   text-decoration: none;
@@ -197,4 +198,35 @@ footer {
 }
 .facts-wrapper img {
   margin-left: 20px;
+}
+
+/* services.html media queries */
+@media (max-width: 768px) {
+  .header-content,
+  .services-content,
+  .facts-wrapper,
+  hr {
+    width: 90%;
+  }
+  .header-content,
+  .services-content,
+  .facts-wrapper {
+    flex-direction: column;
+  }
+  .services-content div {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .facts-wrapper {
+    justify-content: center;
+    align-items: center;
+  }
+  .main-nav-content {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .facts-wrapper img {
+    width: 100%;
+    margin: 0;
+  }
 }
